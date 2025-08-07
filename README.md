@@ -169,16 +169,17 @@ Discord, Notion, git, GitHub
 <hr>
 
 # 📜 프로젝트 산출물
-https://www.notion.so/2481edfffa528076bb11e506981f5b7e
+
 
 ### 💥 아키텍쳐
 
 ### ERD
 
-!(src/assets/img/ERD.png)
+![ERD](src/assets/img/ERD.png)
 
 ### API 명세서
 
 - FastAPI
-  !(src/assets/img/API(1).png)
-  !(src/assets/img/API(2).png)
+  ![API(1)](src/assets/img/API(1).png)
+  
+  ![API(2)](src/assets/img/API(2).png)
