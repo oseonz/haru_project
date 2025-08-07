@@ -2,13 +2,15 @@
 
 # 하루칼로리
 <hr>
+
 ## 🎯 프로젝트 소개
 
-🏷️ 프로젝트명: 하루칼로리
+ **🏷️ 프로젝트명:** 하루칼로리
 
-🗓️ 프로젝트 기간: 2025.06.16 ~ 2025.08.04 (6주)
+**🗓️ 프로젝트 기간:** 2025.06.16 ~ 2025.08.04 (6주)
 
-👥 구성원: 안소라(팀장/Front, Back), 고인헌(팀원/Front, Back), 문연순(팀원/Front, Back), 이서진(팀원/Front, Back)
+**👥 구성원:** 안소라(팀장/Front, Back), 고인헌(팀원/Front, Back), 문연순(팀원/Front, Back), 이서진(팀원/Front, Back)
+
 
 ## 📝 기획 배경
 
@@ -18,6 +20,7 @@
 하루칼로리는 AI를 활용한 자동 식단 기록 기능을 통해 사용자의 입력 부담을 최소화하고자 합니다.
 사용자는 단순히 식사 사진을 업로드하는 것만으로도 AI가 자동으로 음식을 인식하고 칼로리 및 영양 정보를 분석하여 기록해줍니다.
 또한 맞춤형 리포트와 피드백을 통해 사용자가 건강한 식습관을 자연스럽게 만들 수 있도록 돕습니다.
+
 
 ## 📝 서비스 소개
 
@@ -31,13 +34,16 @@
 AI 건강 상담 챗봇 (ChatGPT 기반): AI 기반 건강 상담 챗봇이 탑재되어 있어, 언제든지 건강 관련 궁금증을 자연스럽게 대화하듯 해결할 수 있습니다.
 식습관, 영양, 운동, 체중 관리 등 다양한 주제에 대해 실시간으로 상담을 제공하며, 단순한 지식 전달을 넘어 사용자의 식단 데이터와 연계해 개인 맞춤형 답변을 제공합니다.
 
+
 ## 👤 서비스 대상
 
 - 다이어트, 식습관 개선, 건강 관리를 시작하려는 사람
 - 식단 기록을 해보려 했지만 매번 입력이 귀찮았던 사람
 - 식사 데이터를 시각적으로 보고 인사이트를 얻고 싶은 사람
 
+
 ## 🏠 서비스 화면 및 기능 소개
+
 
 ## ⚒️ 기술 스택
 
@@ -61,6 +67,7 @@ Discord, Notion, git, GitHub
 
 - ### Frontend - React
 
+```
   📁 src
   ├── 📁 api
   ├── 📁 assets
@@ -84,9 +91,11 @@ Discord, Notion, git, GitHub
   ├── 📁 slices
   ├── 📁 store
   └── 📁 utils
+```
 
 - ### Backend - Springboot
 
+```
   📁 java
   └── 📁 com
   └── 📁 study
@@ -121,8 +130,11 @@ Discord, Notion, git, GitHub
   ├── 📄 HarukcalApplication.java
   ├── 📄 ServletInitializer.java
   └── 📁 resources
+```
 
 - ### Backend - FastAPI
+
+```
   📁 chatbot  
   ├── 📄 **init**.py  
   ├── 📄 cookie_utils.py  
@@ -152,19 +164,22 @@ Discord, Notion, git, GitHub
 📄 main_backup.py  
 📄 main_new.py  
 📄 test_langchain.py
+```
 
 <hr>
 
 # 📜 프로젝트 산출물
 
+
 ### 💥 아키텍쳐
 
 ### ERD
 
-!(haru_front/src/assets/img/ERD.png)
+![ERD](src/assets/img/ERD.png)
 
 ### API 명세서
 
 - FastAPI
-  !(haru_front/src/assets/img/API(1).png)
-  !(haru_front/src/assets/img/API(2).png)
+  ![API(1)](src/assets/img/API(1).png)
+  
+  ![API(2)](src/assets/img/API(2).png)
