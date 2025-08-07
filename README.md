@@ -175,11 +175,11 @@ Discord, Notion, git, GitHub
 
 ### ERD
 
-![ERD](src/assets/img/ERD.png)
+![ERD](README/ERD.PNG)
 
 ### API 명세서
 
 - FastAPI
-  ![API(1)](src/assets/img/API(1).png)
+  ![API(1)](README/API(1).png)
   
-  ![API(2)](src/assets/img/API(2).png)
+  ![API(2)](README/API(2).png)
