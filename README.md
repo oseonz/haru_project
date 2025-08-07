@@ -61,6 +61,7 @@ Discord, Notion, git, GitHub
 
 - ### Frontend - React
 
+```
   📁 src
   ├── 📁 api
   ├── 📁 assets
@@ -84,9 +85,11 @@ Discord, Notion, git, GitHub
   ├── 📁 slices
   ├── 📁 store
   └── 📁 utils
+```
 
 - ### Backend - Springboot
 
+```
   📁 java
   └── 📁 com
   └── 📁 study
@@ -121,8 +124,11 @@ Discord, Notion, git, GitHub
   ├── 📄 HarukcalApplication.java
   ├── 📄 ServletInitializer.java
   └── 📁 resources
+```
 
 - ### Backend - FastAPI
+
+```
   📁 chatbot  
   ├── 📄 **init**.py  
   ├── 📄 cookie_utils.py  
@@ -152,6 +158,7 @@ Discord, Notion, git, GitHub
 📄 main_backup.py  
 📄 main_new.py  
 📄 test_langchain.py
+```
 
 <hr>
 
