@@ -173,14 +173,26 @@ Discord, Notion, git, GitHub
 
 ### 💥 아키텍쳐
 
+- 회원가입
+![ERD](README/Architecture4.png)
+
+- 사용자
+![ERD](README/Architecture3.png)
+
+- 배포
+![ERD](README/Architecture2.png)
+
+- 식단분석
+![ERD](README/Architecture1.png)
+
 ### ERD
 
-![ERD](README/ERD.PNG)
+![ERD](README/ERD.png)
 
 ### API 명세서
 
 - FastAPI
-- 
+  
   ![API(1)](README/API(1).PNG)
   
   ![API(2)](README/API(2).PNG)
