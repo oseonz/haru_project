@@ -1,0 +1,97 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --fallback-bc: #1c1c1c !important;
+  --color-base-content: #1c1c1c !important;
+  --color-purple-700: #3336c4;
+  --color-purple-500: #6366f1; /* 메인컬러 */
+  --color-purple-300: #a5b4fc; /*서브컬러 */
+  --color-purple-300: #a5b4fc;
+  --color-red: #ff6d6d;
+  --color-red-700: #ff4141;
+  --color-yellow: #e5e03e;
+  --color-yellow-700: #e4de25;
+  --color-green: #7bd35b;
+  --color-green-700: #5ec23a;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* 스크롤바 숨김 스타일 */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* 부드러운 스크롤 효과 */
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* 터치 디바이스에서 스크롤 개선 */
+@media (hover: none) and (pointer: coarse) {
+  .overflow-x-auto {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* 🎨 로그인 페이지용 커스텀 애니메이션 */
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-5px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(5px);
+  }
+}
+
+.animate-shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+/* 🎨 부드러운 bounce 애니메이션 */
+@keyframes slowBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-bounce.slow {
+  animation: slowBounce 3s ease-in-out infinite;
+}
+
+/* 🎨 글래스모피즘 효과 */
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* 🎨 호버 시 부드러운 확대 효과 */
+.hover-scale {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
