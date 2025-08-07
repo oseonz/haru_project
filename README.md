@@ -183,7 +183,7 @@ Discord, Notion, git, GitHub
 ![ERD](README/Architecture2.png)
 
 - 식단분석
-![ERD](README/Architecture1.png)
+![ERD](README/Architecture1.PNG)
 
 ### ERD
 
