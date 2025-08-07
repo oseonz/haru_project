@@ -180,6 +180,7 @@ Discord, Notion, git, GitHub
 ### API 명세서
 
 - FastAPI
+- 
   ![API(1)](README/API(1).PNG)
   
   ![API(2)](README/API(2).PNG)
